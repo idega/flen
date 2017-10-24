@@ -366,7 +366,7 @@
 			<artifactId>is.idega.webservice</artifactId>
 		</dependency>
 		<dependency>
-			<groupId>com.idega.block.egov</groupId>
+			<groupId>com.idega.block.private</groupId>
 			<artifactId>com.idega.camunda</artifactId>
 			<exclusions>
 				<exclusion>
@@ -380,6 +380,7 @@
 		<dependency>
 			<groupId>com.idega.block.private</groupId>
 			<artifactId>com.idega.egov.dashboard</artifactId>
+			<version>5.0.0-SNAPSHOT</version>
 		</dependency>
 	</dependencies>
 
