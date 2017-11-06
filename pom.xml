@@ -224,7 +224,6 @@
 		<dependency>
 			<groupId>com.idega.block.private</groupId>
 			<artifactId>com.idega.camunda</artifactId>
-			<version>5.0.0-SNAPSHOT</version>
 			<exclusions>
 				<exclusion>
 					<groupId>org.glassfish.jersey.core</groupId>
