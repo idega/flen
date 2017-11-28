@@ -274,16 +274,6 @@
 		<dependency>
 			<groupId>com.idega.block.private</groupId>
 			<artifactId>com.idega.egov.dashboard</artifactId>
-			<exclusions>
-				<exclusion>
-					<groupId>com.sun.xml.bind</groupId>
-					<artifactId>jaxb-impl</artifactId>
-				</exclusion>
-			</exclusions>
-		</dependency>
-		<dependency>
-			<groupId>com.idega.block.private</groupId>
-			<artifactId>com.idega.municipality</artifactId>
 		</dependency>
 	</dependencies>
 
