@@ -31,6 +31,10 @@
 		      		<artifactId>poi-ooxml</artifactId>
 		      		<groupId>org.apache.poi</groupId>
 		      	</exclusion>
+	  			<exclusion>
+	  				<groupId>commons-codec</groupId>
+	  				<artifactId>commons-codec</artifactId>
+	  			</exclusion>
 		    </exclusions>
 		</dependency>
 		<dependency>
@@ -44,6 +48,12 @@
 		<dependency>
 			<groupId>com.idega.block.platform</groupId>
 			<artifactId>org.apache.myfaces</artifactId>
+			<exclusions>
+	  			<exclusion>
+	  				<groupId>commons-codec</groupId>
+	  				<artifactId>commons-codec</artifactId>
+	  			</exclusion>
+	  		</exclusions>
 		</dependency>
 		<dependency>
 			<groupId>com.idega.block.platform</groupId>
@@ -116,6 +126,12 @@
 		<dependency>
 			<groupId>com.idega.block.platform</groupId>
 			<artifactId>com.idega.hibernate</artifactId>
+			<exclusions>
+	  			<exclusion>
+	  				<groupId>commons-codec</groupId>
+	  				<artifactId>commons-codec</artifactId>
+	  			</exclusion>
+	  		</exclusions>
 		</dependency>
 		<dependency>
 			<groupId>com.idega.block.platform</groupId>
@@ -124,6 +140,12 @@
 		<dependency>
 			<groupId>com.idega.block.platform</groupId>
 			<artifactId>com.idega.block.process.webservice</artifactId>
+			<exclusions>
+	  			<exclusion>
+	  				<groupId>commons-codec</groupId>
+	  				<artifactId>commons-codec</artifactId>
+	  			</exclusion>
+	  		</exclusions>
 		</dependency>
 		<dependency>
 			<groupId>com.idega.block.platform</groupId>
@@ -228,10 +250,26 @@
 	    <dependency>
 	      <groupId>com.idega.block.addon</groupId>
 	      <artifactId>com.idega.block.oauth2.server</artifactId>
+	      <exclusions>
+	  			<exclusion>
+	  				<groupId>commons-codec</groupId>
+	  				<artifactId>commons-codec</artifactId>
+	  			</exclusion>
+	      </exclusions>
 	    </dependency>
 	    <dependency>
 	      <groupId>com.idega.block.addon</groupId>
 	      <artifactId>com.idega.block.ldap</artifactId>
+	    </dependency>
+	    <dependency>
+	      <groupId>com.idega.block.addon</groupId>
+	      <artifactId>com.idega.block.form</artifactId>
+	      <exclusions>
+  		  	<exclusion>
+  				<groupId>commons-codec</groupId>
+  				<artifactId>commons-codec</artifactId>
+  			</exclusion>
+  		  </exclusions>
 	    </dependency>
 
 		<!-- eGov dependencies -->
@@ -259,6 +297,20 @@
 			<groupId>com.idega.block.egov</groupId>
 			<artifactId>is.idega.idegaweb.egov.xformscase</artifactId>
 		</dependency>
+		<dependency>
+			<groupId>com.idega.block.egov</groupId>
+			<artifactId>is.idega.idegaweb.egov.citizen</artifactId>
+			<exclusions>
+  			<exclusion>
+  				<groupId>commons-codec</groupId>
+  				<artifactId>commons-codec</artifactId>
+  			</exclusion>
+  		</exclusions>
+		</dependency>
+		<dependency>
+			<groupId>com.idega.block.egov</groupId>
+			<artifactId>com.idega.saml.2.0.client</artifactId>
+		</dependency>
 		
 		<!-- Solution -->
 		<dependency>
@@ -279,6 +331,10 @@
 					<groupId>org.bouncycastle</groupId>
 					<artifactId>bcprov-jdk16</artifactId>
 				</exclusion>
+	  			<exclusion>
+	  				<groupId>commons-codec</groupId>
+	  				<artifactId>commons-codec</artifactId>
+	  			</exclusion>
 			</exclusions>
 		</dependency>
 	</dependencies>
