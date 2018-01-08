@@ -301,11 +301,15 @@
 			<groupId>com.idega.block.egov</groupId>
 			<artifactId>is.idega.idegaweb.egov.citizen</artifactId>
 			<exclusions>
-  			<exclusion>
-  				<groupId>commons-codec</groupId>
-  				<artifactId>commons-codec</artifactId>
-  			</exclusion>
-  		</exclusions>
+	  			<exclusion>
+	  				<groupId>commons-codec</groupId>
+	  				<artifactId>commons-codec</artifactId>
+	  			</exclusion>
+	  			<exclusion>
+	  				<groupId>org.apache.santuario</groupId>
+	  				<artifactId>xmlsec</artifactId>
+	  			</exclusion>
+			</exclusions>
 		</dependency>
 		<dependency>
 			<groupId>com.idega.block.egov</groupId>
