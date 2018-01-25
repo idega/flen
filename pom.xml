@@ -318,6 +318,11 @@
 		
 		<!-- Solution -->
 		<dependency>
+			<groupId>com.idega.block.egov</groupId>
+			<artifactId>se.idega.cybercom.flen</artifactId>
+			<version>5.0.0-SNAPSHOT</version>
+		</dependency>
+		<dependency>
 			<groupId>com.idega.block.private</groupId>
 			<artifactId>com.idega.camunda</artifactId>
 			<exclusions>
