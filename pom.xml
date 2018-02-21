@@ -271,6 +271,14 @@
   			</exclusion>
   		  </exclusions>
 	    </dependency>
+	    <dependency>
+	      <groupId>com.idega.block.addon</groupId>
+	      <artifactId>com.idega.block.sso</artifactId>
+	    </dependency>
+	    <dependency>
+	      <groupId>com.idega.block.addon</groupId>
+	      <artifactId>com.idega.portal</artifactId>
+	    </dependency>
 
 		<!-- eGov dependencies -->
 		<dependency>
@@ -315,6 +323,10 @@
 			<groupId>com.idega.block.egov</groupId>
 			<artifactId>com.idega.saml.2.0.client</artifactId>
 		</dependency>
+		<dependency>
+			<groupId>com.idega.block.egov</groupId>
+			<artifactId>is.idega.block.family</artifactId>
+	    </dependency>
 		
 		<!-- Solution -->
 		<dependency>
