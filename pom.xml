@@ -305,6 +305,10 @@
 			<groupId>com.idega.block.egov</groupId>
 			<artifactId>is.idega.block.family</artifactId>
 	    </dependency>
+	    <dependency>
+			<groupId>com.idega.block.egov</groupId>
+			<artifactId>is.idega.block.nationalregister</artifactId>
+		</dependency>
 		
 		<!-- Solution -->
 		<dependency>
